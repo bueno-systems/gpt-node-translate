@@ -1,0 +1,19 @@
+{
+  "name": "gpt-node-translate",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "author": "Jack Cuthbert <jckcthbrt@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build && node dist/index.js"
+  },
+  "dependencies": {
+    "openai": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.4",
+    "typescript": "^5.0.4"
+  }
+}
